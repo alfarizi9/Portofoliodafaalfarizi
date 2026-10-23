@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dafa Setyawan — Student Developer</title>
+<meta name="description" content="Portofolio Muhammad Dafa Alfarizi Setyawan: siswa RPL, web & game developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="nav container">
+  <span class="logo">Dafa<span class="dot">.</span></span>
+  <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+  <div class="links" id="links">
+    <a href="#tentang">Tentang</a>
+    <a href="#pengalaman">Pengalaman</a>
+    <a href="#skill">Skill</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div class="reveal">
+      <p class="badge">👋 Halo, saya Dafa</p>
+      <h1>Siswa IT yang suka <span class="grad">ngoding</span> &amp; memecahkan masalah.</h1>
+      <p class="lead">Muhammad Dafa Alfarizi Setyawan — siswa RPL di IDN Boarding School. Senang belajar mandiri, berburu bug, dan membangun proyek pribadi.</p>
+      <div class="btns">
+        <a href="mailto:dafa129yt@gmail.com" class="btn primary">Hubungi Saya</a>
+        <a href="#galeri" class="btn outline">Lihat Karya →</a>
+      </div>
+    </div>
+    <div class="photo-wrap reveal">
+      <div class="photo-bg"></div>
+      <img src="img/dafa.png" alt="Foto Muhammad Dafa" class="photo" onerror="this.src='https://via.placeholder.com/256x320/a8582f/fbf8f2?text=Dafa'">
+      <div class="float">🏀 Juara 1 · 8 turnamen</div>
+    </div>
+  </div>
+</header>
+
+<section id="tentang" class="container section reveal">
+  <p class="kicker">Pendidikan</p>
+  <h2>Perjalanan belajar</h2>
+  <div class="grid2">
+    <div class="card"><p class="year">2026 – Sekarang</p><h3>SMK IDN Boarding School</h3><p class="muted">Software Development / RPL</p></div>
+    <div class="card"><p class="year">2023 – 2026</p><h3>SMP IDN Boarding School</h3><p class="muted">Jenjang menengah pertama</p></div>
+  </div>
+</section>
+
+<section id="pengalaman" class="container section reveal">
+  <p class="kicker">Pengalaman</p>
+  <h2>Hal-hal yang pernah saya kerjakan</h2>
+  <div class="timeline" id="timeline">
+    <div class="item">
+      <p class="meta">2024 – Sekarang</p>
+      <h3>Web Development &amp; Competitive Programming</h3>
+      <ul>
+        <li>Membangun berbagai web e-commerce, landing page, dan sistem manajemen.</li>
+        <li>Aktif mengikuti kompetisi robotik dan sertifikasi pemrograman.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="skill" class="container section reveal">
+  <p class="kicker">Skill &amp; Bahasa</p>
+  <h2>Yang saya bawa ke tim</h2>
+  <div class="chips" id="chips">
+    <span class="chip">HTML5 &amp; CSS3</span>
+    <span class="chip">JavaScript</span>
+    <span class="chip">UI/UX Design</span>
+    <span class="chip">3D Modeling</span>
+    <span class="chip">Git &amp; GitHub</span>
+  </div>
+  <p class="muted lang">Bahasa: <strong>Indonesia · English · German (basic)</strong></p>
+  <div class="grid3">
+    <div class="soft"><div class="ico">📜</div><p>HTML &amp; CSS Fundamentals</p></div>
+    <div class="soft"><div class="ico">⚡</div><p>JavaScript Fundamentals</p></div>
+    <div class="soft"><div class="ico">🏆</div><p>Juara 1 di 8 turnamen basket antar sekolah</p></div>
+  </div>
+</section>
+
+<!-- GALERI & PROYEK COMPLETE -->
+<section id="galeri" class="container section reveal">
+  <div class="gallery-header">
+    <div>
+      <p class="kicker">Galeri &amp; Karya</p>
+      <h2>Proyek &amp; Sertifikat Pilihan</h2>
+    </div>
+    <button class="filter-btn">⚙️ Filter</button>
+  </div>
+
+  <div class="project-grid">
+    <!-- Card 1: E-commerce LVP -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/e-commerce-lvp.png" alt="E-Commerce Brand LVP" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>E-Commerce Brand LVP (Dape Store)</h3>
+        <p class="muted-small">Platform e-commerce streetwear brand lokal dengan fitur keranjang &amp; checkout.</p>
+        <div class="project-actions">
+          <a href="https://lovepleasure.netlify.app/" target="_blank" rel="noopener" class="action-btn">🔗 Visit Website</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2: Store Kue (Dapur Hana) -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/store-kue.png" alt="Store Kue - Dapur Hana" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>Store Kue (Dapur Hana)</h3>
+        <p class="muted-small">Website katalog dan pemesanan berbagai produk kue &amp; pastry pilihan.</p>
+        <div class="project-actions">
+          <a href="https://rainbow-snickerdoodle-c533b1.netlify.app/" target="_blank" rel="noopener" class="action-btn">🔗 Visit Website</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3: Sertifikasi Cody Tech HTML -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/sertifikat-codytech.png" alt="Sertifikat CodyTech HTML" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>Sertifikat CodyTech - HTML Fundamentals</h3>
+        <p class="muted-small">Sertifikasi resmi penyelesaian materi dasar pemrograman web HTML.</p>
+        <div class="project-actions">
+          <span class="action-btn">📜 Certificate</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4: Portofolio Pertama -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/portofolio-pertama.png" alt="Portofolio Pertama" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>First Personal Portfolio</h3>
+        <p class="muted-small">Desain website portofolio pertama yang pernah dibuat menggunakan HTML &amp; CSS.</p>
+        <div class="project-actions">
+          <span class="action-btn">💻 Web Design</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5: Desain 3D Kamar -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/desain-3d-kamar.png" alt="Desain 3D Pertama" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>Desain 3D Isometric Room</h3>
+        <p class="muted-small">Karya permodelan 3D pertama bertema ruangan kamar tidur isometric.</p>
+        <div class="project-actions">
+          <span class="action-btn">🎨 3D Art</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 6: Sertifikat Best Student 2x -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/sertifikat-best-student.png" alt="Sertifikat Siswa Teladan" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>Sertifikat Siswa Teladan (2x Best Student)</h3>
+        <p class="muted-small">Penghargaan sebagai siswa teladan di IDN Boarding School.</p>
+        <div class="project-actions">
+          <span class="action-btn">🏆 Achievement</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 7: Lomba Robotik IRC 2024 -->
+    <div class="project-card">
+      <div class="project-thumb">
+        <img src="img/sertifikat-robotik.png" alt="Lomba Robotik IRC 2024" onerror="this.onerror=null; this.src='img/dafa.png';">
+      </div>
+      <div class="project-body">
+        <h3>Sertifikat Innovation Robotic Competition (IRC 2024)</h3>
+        <p class="muted-small">Peserta kompetisi robotik tingkat nasional (IRC 2024).</p>
+        <div class="project-actions">
+          <span class="action-btn">🤖 Robotic Competition</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="kontak" class="container section reveal">
+  <div class="cta">
+    <h2>Yuk ngobrol!</h2>
+    <p>Terbuka untuk kolaborasi, proyek, atau sekadar sharing.</p>
+    <div class="contacts">
+      <a href="mailto:dafa129yt@gmail.com">dafa129yt@gmail.com</a>
+      <a href="tel:08211940763">0821-1940-763</a>
+      <a href="https://mydafa.my.id">mydafa.my.id</a>
+    </div>
+  </div>
+  <p class="copy">© 2026 Muhammad Dafa Alfarizi Setyawan</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Masukkan gambar screenshot kamu di folder ini dengan nama file yang sesuai.
